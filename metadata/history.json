@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-20T07:34:33.404Z",
+  "entries": [
+    {
+      "type": "epoch",
+      "number": 8,
+      "contributor": "0x92f7a0a3118488978F6fdcb032977Ad631f238e2",
+      "genomeHash": "bc64c21fac7b0d434c452de4b92b38c4472003b56f0e5bc15f2263c7b5b47a4b",
+      "fitness": 0.9967147291253697,
+      "recordedAt": "2026-05-20T07:34:33.404Z"
+    }
+  ]
+}
