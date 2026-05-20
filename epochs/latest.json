@@ -1,18 +1,18 @@
 {
   "epoch": {
-    "number": 17,
-    "startedAt": 1779264013897,
-    "endsAt": 1779264193897,
+    "number": 18,
+    "startedAt": 1779264208900,
+    "endsAt": 1779264388900,
     "status": "finalized",
-    "seedCandidateId": "5bede746-9e82-421a-a46e-c8f4adce1588",
-    "finalizedCandidateId": "da6c6f72-9778-4551-9325-187b85c87fce",
+    "seedCandidateId": "da6c6f72-9778-4551-9325-187b85c87fce",
+    "finalizedCandidateId": "19298d54-3db1-4b24-a00a-93468b65c96a",
     "minerCount": 1,
-    "finalHash": "22acceb9b2070a8d1d28ca5c7d774bc69b169d9ac8851bf61d80a84a586ab751"
+    "finalHash": "11a7ea0cf7398154bbcb64890397aa4fb5e77d814ea175592c50b06a56e7106e"
   },
   "candidate": {
-    "id": "da6c6f72-9778-4551-9325-187b85c87fce",
-    "parentId": "c13a9848-4bee-4ce5-8c6a-01370a26f592",
-    "epoch": 17,
+    "id": "19298d54-3db1-4b24-a00a-93468b65c96a",
+    "parentId": "53adca8a-efc3-49bb-8173-c17a035495ab",
+    "epoch": 18,
     "contributor": "0x92f7a0a3118488978F6fdcb032977Ad631f238e2",
     "genome": {
       "sbox": [
@@ -156,7 +156,7 @@
         188,
         37,
         203,
-        124,
+        95,
         248,
         186,
         156,
@@ -200,7 +200,7 @@
         56,
         230,
         153,
-        95,
+        124,
         151,
         106,
         152,
@@ -372,108 +372,113 @@
       ],
       "entropySeed": 381377706
     },
-    "genomeHash": "22acceb9b2070a8d1d28ca5c7d774bc69b169d9ac8851bf61d80a84a586ab751",
+    "genomeHash": "11a7ea0cf7398154bbcb64890397aa4fb5e77d814ea175592c50b06a56e7106e",
     "benchmark": {
-      "avalanche": 0.9997265625,
-      "entropy": 0.998306765774872,
-      "diffusion": 0.99546875,
-      "bias": 0.980003137254902,
-      "fitness": 0.9962638278329519,
-      "throughput": 82638.93215955199,
-      "benchmarkedAt": 1779264038565,
+      "avalanche": 0.99853515625,
+      "entropy": 0.9981215639946937,
+      "diffusion": 0.99671875,
+      "bias": 0.9817631372549019,
+      "fitness": 0.9962797751113983,
+      "throughput": 87439.65243087917,
+      "benchmarkedAt": 1779264384721,
       "iterations": 200
     },
-    "benchmarkScore": 0.9962638278329519,
-    "signature": "0x545e18c63fb069b9be8f385d785498cb36d4a32ed47ee4477f78c4494b29a03a6136e32431cfdcd92bcfe4bb953afd0470cffa2a8edca99ba54ce045fe5e71fa1c",
-    "createdAt": 1779264042527
+    "benchmarkScore": 0.9962797751113983,
+    "signature": "0x54523e35712827bd94a2c8932e9ea8f5945113d3d4ab66d9d2e13c508776dd6d4b6a03fb9ac805d7ed44059799f10ed9555dc9a32abd2df12124ea6a72c1659d1c",
+    "createdAt": 1779264384685
   },
   "lineagePath": {
     "nodes": [
       {
-        "candidateId": "3ac286c4-fe03-44ef-a991-bfc1e7c6bcd3",
-        "parentId": "b2d93cee-9dc7-42b5-8865-ebeb5d2dcc50",
-        "epoch": 17,
+        "candidateId": "c2377b10-46c9-4d39-98dd-265270e82c85",
+        "parentId": "1f4489b3-e0e8-4a88-babf-134953424a82",
+        "epoch": 18,
         "contributor": "0x92f7a0a3118488978F6fdcb032977Ad631f238e2",
-        "fitness": 0.9960062179259728,
+        "fitness": 0.9960998504959333,
         "depth": 0,
         "children": [
-          "4d3dcf41-195a-468e-9f07-2d1f952e57d5",
-          "51fb2128-aefe-4f27-be89-362755013462",
-          "864b0f85-2339-498e-9e52-92a086d6ed5e",
-          "1cb09e7a-a75c-4ff5-884b-41b603c9ff35",
-          "c13a9848-4bee-4ce5-8c6a-01370a26f592",
-          "7f0c27f4-f8d5-4687-9467-362f01dab378",
-          "cbc8ee16-4934-40ea-b0b4-1bb5bd402fa9"
+          "0566ed80-ef0d-4aa0-ad38-53fc7ae11be2",
+          "d921fcaa-5a32-4ee0-8429-6b8ca6d401a4",
+          "a6aaabea-5007-481c-aba7-75eeaf81b48b",
+          "53adca8a-efc3-49bb-8173-c17a035495ab",
+          "b03cad15-63ac-4d4e-9a27-5724f6765c0d"
         ],
-        "createdAt": 1779264024517
+        "createdAt": 1779264350670
       },
       {
-        "candidateId": "c13a9848-4bee-4ce5-8c6a-01370a26f592",
-        "parentId": "3ac286c4-fe03-44ef-a991-bfc1e7c6bcd3",
-        "epoch": 17,
+        "candidateId": "53adca8a-efc3-49bb-8173-c17a035495ab",
+        "parentId": "c2377b10-46c9-4d39-98dd-265270e82c85",
+        "epoch": 18,
         "contributor": "0x92f7a0a3118488978F6fdcb032977Ad631f238e2",
-        "fitness": 0.9968889751929895,
+        "fitness": 0.9964882394592136,
         "depth": 1,
         "children": [
-          "6972449c-21d2-4338-8212-ef5202658445",
-          "b1aa263d-50a0-4001-b4f1-648d265da966",
-          "f70e78a2-a9df-4703-828b-c28de3a28255",
-          "0d8af88f-dcbe-4906-a694-3dae445c5e5f",
-          "6d8dcf13-dcc4-4097-a32b-186b461862ef",
-          "ec174a64-04cd-4e5a-8ded-e349c5428121",
-          "bc113b32-e0bd-4eb1-84df-af806461227d",
-          "da6c6f72-9778-4551-9325-187b85c87fce",
-          "9ab1d2f6-94ae-441b-90e3-912323d98dff",
-          "122fdf1c-3680-497e-b096-4885e3025100",
-          "17fa8995-f52b-43df-9112-764ee38decae",
-          "7503ec9a-ff07-48e0-9f28-192cda5d6602",
-          "acf9dc8f-94e0-4ba2-8d1b-35a789894e48",
-          "b7b84e26-71e6-4c2a-8764-161eecc94118",
-          "9d5f2664-31b0-4267-b257-bcb53535a12c"
+          "decc8552-d214-471a-aea6-ebc39e7a97cf",
+          "95a27f55-1a2e-40d7-a578-9aefa3070998",
+          "2d0e408f-9e79-48b3-a8ac-22b0d4647dfc",
+          "f866f13a-93da-4630-b3dc-2e7073c8832c",
+          "911aa2b2-54e9-490a-8d3d-0dfe7da2d96f",
+          "4387a4c7-3156-42bb-98ed-c3e9fb5609d4",
+          "66a3bd8d-161b-4e62-a018-115a6ec873b4",
+          "bf578fb7-41e9-44a9-a204-21723af1bc14",
+          "b02f3226-4956-42e7-88d4-35798143a0e9",
+          "35ff819e-52cf-4c62-baa6-f065ed942635",
+          "4e653187-c8fc-4393-a36a-f98355be0d16",
+          "91263dfa-226d-41ac-a371-12b0aa801c4b",
+          "82f4de0d-92cd-48fc-9a47-ef5f69b8aa28",
+          "d131e202-ce71-4406-8734-7bae78301095",
+          "5442a684-646d-4534-8649-28b07f8378a6",
+          "cfdd2eec-d8ce-4da7-9c0b-95f1217c7b3f",
+          "fdb0ab14-7078-43d0-b7d8-9956331c0c4b",
+          "470ca0ed-18d5-4c70-b7e2-7c1e746946a3",
+          "19298d54-3db1-4b24-a00a-93468b65c96a",
+          "e59ce5f8-5d3b-45ae-b1b5-daf1c3be6a57",
+          "2605fade-beb2-4593-9cd7-ef8e1ff64bc8",
+          "339dc5e5-5fe9-471b-8ca1-32e18de80d32"
         ],
-        "createdAt": 1779264028519
+        "createdAt": 1779264354671
       },
       {
-        "candidateId": "da6c6f72-9778-4551-9325-187b85c87fce",
-        "parentId": "c13a9848-4bee-4ce5-8c6a-01370a26f592",
-        "epoch": 17,
+        "candidateId": "19298d54-3db1-4b24-a00a-93468b65c96a",
+        "parentId": "53adca8a-efc3-49bb-8173-c17a035495ab",
+        "epoch": 18,
         "contributor": "0x92f7a0a3118488978F6fdcb032977Ad631f238e2",
-        "fitness": 0.9962638278329519,
+        "fitness": 0.9962797751113983,
         "depth": 2,
         "children": [],
-        "createdAt": 1779264042527
+        "createdAt": 1779264384685
       }
     ],
-    "tip": "da6c6f72-9778-4551-9325-187b85c87fce",
-    "rootEpoch": 17,
+    "tip": "19298d54-3db1-4b24-a00a-93468b65c96a",
+    "rootEpoch": 18,
     "totalDepth": 2
   },
   "artifacts": [
     {
-      "id": "ae8ec197-c8db-4757-b87d-a76492e97f02",
-      "epoch": 17,
+      "id": "02910365-4529-4f93-82ad-48bfca56b98e",
+      "epoch": 18,
       "contributor": "0x92f7a0a3118488978F6fdcb032977Ad631f238e2",
       "role": "epoch_finalizer",
-      "candidateId": "da6c6f72-9778-4551-9325-187b85c87fce",
+      "candidateId": "19298d54-3db1-4b24-a00a-93468b65c96a",
       "lineageDepth": 2,
-      "fitness": 0.9962638278329519,
-      "issuedAt": 1779264208893,
+      "fitness": 0.9962797751113983,
+      "issuedAt": 1779264403907,
       "cosignatures": {},
-      "issuerSignature": "0xc87cf16bcac965318d2b628613c7664bffc3cf1351db82bcc7e4a0cb164d42a7653940612de44b002ea89cff3eeb8e51cb3fcfd7f61bc10db298f90b316128071c"
+      "issuerSignature": "0x30855bcb9d352427d33e5de79eb01b4ceff623fc5f78646020b664278dc0a7b95ae979e7a33afe1ea74479029cdb0d5af7bd2bb47b0d402ad565692fe00b7d131c"
     }
   ],
   "validatorSignatures": {
-    "0x92f7a0a3118488978F6fdcb032977Ad631f238e2": "0x545e18c63fb069b9be8f385d785498cb36d4a32ed47ee4477f78c4494b29a03a6136e32431cfdcd92bcfe4bb953afd0470cffa2a8edca99ba54ce045fe5e71fa1c"
+    "0x92f7a0a3118488978F6fdcb032977Ad631f238e2": "0x54523e35712827bd94a2c8932e9ea8f5945113d3d4ab66d9d2e13c508776dd6d4b6a03fb9ac805d7ed44059799f10ed9555dc9a32abd2df12124ea6a72c1659d1c"
   },
-  "packagedAt": 1779264208898,
+  "packagedAt": 1779264403913,
   "manifest": {
-    "epochNumber": 17,
-    "finalHash": "22acceb9b2070a8d1d28ca5c7d774bc69b169d9ac8851bf61d80a84a586ab751",
-    "candidateId": "da6c6f72-9778-4551-9325-187b85c87fce",
-    "genomeHash": "22acceb9b2070a8d1d28ca5c7d774bc69b169d9ac8851bf61d80a84a586ab751",
-    "packagedAt": 1779264208898,
+    "epochNumber": 18,
+    "finalHash": "11a7ea0cf7398154bbcb64890397aa4fb5e77d814ea175592c50b06a56e7106e",
+    "candidateId": "19298d54-3db1-4b24-a00a-93468b65c96a",
+    "genomeHash": "11a7ea0cf7398154bbcb64890397aa4fb5e77d814ea175592c50b06a56e7106e",
+    "packagedAt": 1779264403913,
     "minerCount": 1,
-    "manifestHash": "31035fca3c9d17232e718547f3ed35549007de80042d6da7db42af884f70046c",
-    "workerSignature": "294352000cc6ac8743bfd0f148869497c9d49e5043bff97866a64aa1ad960272"
+    "manifestHash": "d63b090727a08179bcd8e1ebe4a48f13acd3daa91fda5fea38a14c09d4269679",
+    "workerSignature": "3eabcc717005fca8a7389c50d7453ad40e22bdd6c139ffe8bb544505242acf39"
   }
 }
