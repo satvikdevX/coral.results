@@ -1,10 +1,10 @@
 {
   "epochNumber": 42,
-  "finalHash": "3e287f5051e232d9affe90a2e037311ceb9715b4cca71ec87800a08b52b43bb9",
-  "candidateId": "84f2a794-a9db-45d5-af9c-07bfbe704275",
-  "genomeHash": "3e287f5051e232d9affe90a2e037311ceb9715b4cca71ec87800a08b52b43bb9",
-  "packagedAt": 1779555297977,
+  "finalHash": "6acb598bed4801d4bc79f0587e3f72fae89f6ad094809b6850f5e776eee96444",
+  "candidateId": "b50ccee9-a2ae-4eb2-b51a-b24da38ebaf2",
+  "genomeHash": "6acb598bed4801d4bc79f0587e3f72fae89f6ad094809b6850f5e776eee96444",
+  "packagedAt": 1779555301929,
   "minerCount": 1,
-  "manifestHash": "a38fff16423ba4d365c0a704a0215c59a9eb3fab7126427a82ed53779d75824a",
-  "workerSignature": "74c8132d8e550a9ac5f0809d89ec55b2778e60045228c448b1aa222fac22a4f3"
+  "manifestHash": "d894ed1ee3b39a8212ad48d3677bf2ca897c8d750d72669821cbbabd6b3ab1cc",
+  "workerSignature": "57de1922db902e3aeef3a3f5de321c8a8a05e9d054f1c784c8e62e5f6f2a8365"
 }
