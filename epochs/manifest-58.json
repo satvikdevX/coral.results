@@ -1,0 +1,10 @@
+{
+  "epochNumber": 58,
+  "finalHash": "8f67c96dddd5e77752fa99adb2d376ae0403c9d5c282fb25d63d7c4197d62e48",
+  "candidateId": "12295a6d-c90d-479e-8fb6-82e5634bf3ac",
+  "genomeHash": "8f67c96dddd5e77752fa99adb2d376ae0403c9d5c282fb25d63d7c4197d62e48",
+  "packagedAt": 1779620677047,
+  "minerCount": 1,
+  "manifestHash": "1fc85c571f8f58f235680e9397b1b04fec3a2541a9ba9f1acf1f4166bfd78e5e",
+  "workerSignature": "f7b43cc04c13be29123b4f365bcb37aac5a9770e09745c1833f2a54a5522d56b"
+}
