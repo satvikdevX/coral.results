@@ -1,18 +1,18 @@
 {
   "epoch": {
-    "number": 49,
-    "startedAt": 1779598921955,
-    "endsAt": 1779599101955,
+    "number": 50,
+    "startedAt": 1779599901616,
+    "endsAt": 1779600081616,
     "status": "finalized",
-    "seedCandidateId": "3c643a77-7e4b-4400-b60e-d320916a445e",
-    "finalizedCandidateId": "6f0d795b-64f1-4db3-a6af-1c8a9370b97b",
+    "seedCandidateId": "6f0d795b-64f1-4db3-a6af-1c8a9370b97b",
+    "finalizedCandidateId": "860098ff-79eb-4a8b-98ee-2a0a10d613bb",
     "minerCount": 1,
-    "finalHash": "086e8144fa632e93cb600a91fc1ca42c20bb5dbaf048997bb660b530e908b533"
+    "finalHash": "b9e00c23cab473f4cf3f19ac7a21c27479f734640d001a54d746bd22f694047d"
   },
   "candidate": {
-    "id": "6f0d795b-64f1-4db3-a6af-1c8a9370b97b",
-    "parentId": "1f85c0cd-184e-4931-8df0-af7beeb590f1",
-    "epoch": 49,
+    "id": "860098ff-79eb-4a8b-98ee-2a0a10d613bb",
+    "parentId": "7dc3e5f2-8fd1-4882-8fd6-b348fb1ea704",
+    "epoch": 50,
     "contributor": "0x0aF818D0672B216D47e194e35AD21Bd257cEf213",
     "genome": {
       "sbox": [
@@ -320,7 +320,7 @@
         62,
         26,
         46,
-        24,
+        20,
         21,
         57,
         37,
@@ -331,7 +331,7 @@
         23,
         5,
         40,
-        20,
+        24,
         53,
         18,
         52,
@@ -370,109 +370,81 @@
       ],
       "entropySeed": 381377706
     },
-    "genomeHash": "086e8144fa632e93cb600a91fc1ca42c20bb5dbaf048997bb660b530e908b533",
+    "genomeHash": "b9e00c23cab473f4cf3f19ac7a21c27479f734640d001a54d746bd22f694047d",
     "benchmark": {
-      "avalanche": 0.9998828125000001,
-      "entropy": 0.998014198163655,
-      "diffusion": 0.99703125,
-      "bias": 0.9779858823529411,
-      "fitness": 0.9964196445593906,
-      "throughput": 96311.65836251495,
-      "benchmarkedAt": 1779598969718,
+      "avalanche": 0.9995703125,
+      "entropy": 0.9982778846374355,
+      "diffusion": 0.99640625,
+      "bias": 0.9806556862745098,
+      "fitness": 0.9965001058936817,
+      "throughput": 102562.7876565685,
+      "benchmarkedAt": 1779599921638,
       "iterations": 200
     },
-    "benchmarkScore": 0.9964196445593906,
-    "signature": "0xb71323f88b3c7c1806baf93fe2b92e7171204c504d86ce3b00af4f251ae94d90223e4d43428c6a34c921839dec49704ce4ba1c40a046c3c6347965c7bf0dfdf51c",
-    "createdAt": 1779598971692
+    "benchmarkScore": 0.9965001058936817,
+    "signature": "0xcb3c98f2062cc85a3616956b3fb36918e19fafd6675da1984145c54720ddef831eb4a3bd01bc2697f8d706c676957640b4bb1f210c1d2c33acde1b34c62cf6ba1c",
+    "createdAt": 1779599923610
   },
   "lineagePath": {
     "nodes": [
       {
-        "candidateId": "1f85c0cd-184e-4931-8df0-af7beeb590f1",
-        "parentId": "3f1b27e5-f171-4470-b8fe-b9e4ddeecac4",
-        "epoch": 49,
+        "candidateId": "7dc3e5f2-8fd1-4882-8fd6-b348fb1ea704",
+        "parentId": "e9548d8d-a67a-45ab-bda4-07b60a936d28",
+        "epoch": 50,
         "contributor": "0x0aF818D0672B216D47e194e35AD21Bd257cEf213",
-        "fitness": 0.996584119922808,
+        "fitness": 0.9968539648245216,
         "depth": 0,
         "children": [
-          "845f57f2-023b-4981-8db3-e847872ea824",
-          "87d70e89-0c73-444b-a100-ba800e8eca82",
-          "d82195a8-bf56-426e-b880-7b4c54c12108",
-          "730c60d4-41fd-4d2d-a598-7082f75b8515",
-          "b7736e63-7497-4bec-a5ab-18003308d7a1",
-          "3e9f01cf-8dcb-452c-b083-8761a0b940a1",
-          "18c51ce5-b886-4fd9-98d0-6ce8f46fa3e2",
-          "13b20435-c089-4d99-bec0-6c174c207d14",
-          "ded02904-14c9-4720-9ec0-14977068c6a5",
-          "934a63ea-b604-46c9-9efc-f540ae9987cf",
-          "421e8e29-431e-42af-ace8-7f158c9bca2d",
-          "4fafd4a4-ed4f-4c76-bb61-d6e04fbe1584",
-          "854b7de5-5694-4b2f-bab5-6f8f058020ee",
-          "55b6b8c2-9749-4cdb-8ac0-31d5c28adeb9",
-          "3b232f60-c37d-4b03-b544-8e173ab14993",
-          "449a2b00-3a22-4ccf-8d14-adbb19cf53ed",
-          "75785579-8883-4c99-b385-b373ed3861ed",
-          "7583cd27-94a7-44a9-aead-b38ac4943745",
-          "047d2b6a-6426-41dd-aac4-b80ac6dc3e09",
-          "7b4dab86-4d2f-4f02-8c2b-60894ed62766",
-          "6f0d795b-64f1-4db3-a6af-1c8a9370b97b",
-          "19c7233b-f274-461c-8fa0-afcee2dabac9",
-          "b8ad0857-e64f-4eb8-95ef-26910b58cc81",
-          "6762d2b7-f683-49ed-a0ec-a725972abc94",
-          "7590f186-c475-4ab2-8b82-a05ebdd87628",
-          "f656fff4-0ead-4dd5-8e2b-eb0b31d5e55a",
-          "8f50722c-a446-45e3-8571-7c21a990e9c5",
-          "7e485e6e-3499-4a2c-a84c-af229ba483ce",
-          "3da8c2b8-3244-4f95-9518-bf93f75863b7",
-          "6dfe6bb3-2f1c-4366-893f-aba514aa4a09",
-          "497cb9ef-591f-470f-ae50-957a4e279701",
-          "f27b00ba-77bd-4a46-b6db-fc84e700d55f",
-          "d348702b-18ca-4433-b0b9-2518c4a9b274",
-          "3184acd1-fd06-4235-98a5-d53f74ea1be8"
+          "d179a9a5-217d-43d9-845c-07ade9d05c91",
+          "79f189eb-af8a-4add-9155-56c98360deac",
+          "c114c81b-7dee-4b4c-aca2-e5784d4840ff",
+          "57e6f574-bde0-4960-9392-d934dba47524",
+          "860098ff-79eb-4a8b-98ee-2a0a10d613bb",
+          "544a605c-b8a1-4adc-ba7a-05049fece579"
         ],
-        "createdAt": 1779598943669
+        "createdAt": 1779599921607
       },
       {
-        "candidateId": "6f0d795b-64f1-4db3-a6af-1c8a9370b97b",
-        "parentId": "1f85c0cd-184e-4931-8df0-af7beeb590f1",
-        "epoch": 49,
+        "candidateId": "860098ff-79eb-4a8b-98ee-2a0a10d613bb",
+        "parentId": "7dc3e5f2-8fd1-4882-8fd6-b348fb1ea704",
+        "epoch": 50,
         "contributor": "0x0aF818D0672B216D47e194e35AD21Bd257cEf213",
-        "fitness": 0.9964196445593906,
+        "fitness": 0.9965001058936817,
         "depth": 1,
         "children": [],
-        "createdAt": 1779598971692
+        "createdAt": 1779599923610
       }
     ],
-    "tip": "6f0d795b-64f1-4db3-a6af-1c8a9370b97b",
-    "rootEpoch": 49,
+    "tip": "860098ff-79eb-4a8b-98ee-2a0a10d613bb",
+    "rootEpoch": 50,
     "totalDepth": 1
   },
   "artifacts": [
     {
-      "id": "7cf6f12c-dfc6-40bb-9702-36c7c6d96633",
-      "epoch": 49,
+      "id": "26552d33-a65f-404c-a87d-7a90c75a7edf",
+      "epoch": 50,
       "contributor": "0x0aF818D0672B216D47e194e35AD21Bd257cEf213",
       "role": "epoch_finalizer",
-      "candidateId": "6f0d795b-64f1-4db3-a6af-1c8a9370b97b",
+      "candidateId": "860098ff-79eb-4a8b-98ee-2a0a10d613bb",
       "lineageDepth": 1,
-      "fitness": 0.9964196445593906,
-      "issuedAt": 1779599901610,
+      "fitness": 0.9965001058936817,
+      "issuedAt": 1779600428345,
       "cosignatures": {},
-      "issuerSignature": "0xed7a59cfe85f6d5849f66c7e33a127968ffe85c5e80c6fc16af66c1ea935cd5c67bbe9da55be71cd1cba9f9afdbdae9fb8cb8321efd24fcf4003224012c714631b"
+      "issuerSignature": "0x71bf5bd2a8b3dbc719e05593af67945d419baca323120ec42bddf6b728f0d6d213f0b7e6540afc8d1b447d0b78bff4b689a020a48f54c4b7c926259e8c7b6a4b1c"
     }
   ],
   "validatorSignatures": {
-    "0x0aF818D0672B216D47e194e35AD21Bd257cEf213": "0xb71323f88b3c7c1806baf93fe2b92e7171204c504d86ce3b00af4f251ae94d90223e4d43428c6a34c921839dec49704ce4ba1c40a046c3c6347965c7bf0dfdf51c"
+    "0x0aF818D0672B216D47e194e35AD21Bd257cEf213": "0xcb3c98f2062cc85a3616956b3fb36918e19fafd6675da1984145c54720ddef831eb4a3bd01bc2697f8d706c676957640b4bb1f210c1d2c33acde1b34c62cf6ba1c"
   },
-  "packagedAt": 1779599901615,
+  "packagedAt": 1779600428363,
   "manifest": {
-    "epochNumber": 49,
-    "finalHash": "086e8144fa632e93cb600a91fc1ca42c20bb5dbaf048997bb660b530e908b533",
-    "candidateId": "6f0d795b-64f1-4db3-a6af-1c8a9370b97b",
-    "genomeHash": "086e8144fa632e93cb600a91fc1ca42c20bb5dbaf048997bb660b530e908b533",
-    "packagedAt": 1779599901615,
+    "epochNumber": 50,
+    "finalHash": "b9e00c23cab473f4cf3f19ac7a21c27479f734640d001a54d746bd22f694047d",
+    "candidateId": "860098ff-79eb-4a8b-98ee-2a0a10d613bb",
+    "genomeHash": "b9e00c23cab473f4cf3f19ac7a21c27479f734640d001a54d746bd22f694047d",
+    "packagedAt": 1779600428363,
     "minerCount": 1,
-    "manifestHash": "d9a238b8213fdd1caa127dc017d39adf5e71b34b792018b6f2ae9a8903fe5f26",
-    "workerSignature": "056e34a7af9da753dd594e67d1038239773758f79868b2023fb71b7289a6d5d4"
+    "manifestHash": "be8fd32d32ee22e65dc34d6e82a04c2139630e598a4fc6f173f80ba8daf09f21",
+    "workerSignature": "234b6535691fd93a06c534205e096bb13a43ef318a5514c52c072d2e792f8de9"
   }
 }
