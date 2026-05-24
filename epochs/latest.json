@@ -844,15 +844,5 @@
   "validatorSignatures": {
     "0x5B79B8A98a3301D7f6Dc92fAFC96F8Ad659b2D85": "0xad5b36d9ff19692f7c2bd9f81f272668e72e4fdda33a066fdc63b864f9818d3c166749f41d41396a2337ff7ee587af32206c2ad88592fbe4b1087b918a9be9ec1b"
   },
-  "packagedAt": 1779620099967,
-  "manifest": {
-    "epochNumber": 55,
-    "finalHash": "002f1681da5f8ae681b7912f6f0f32dc299be1c3f8cfe1db4a612323ed88fa0a",
-    "candidateId": "73ac28ee-4913-48df-9733-5ec6f64f14c2",
-    "genomeHash": "002f1681da5f8ae681b7912f6f0f32dc299be1c3f8cfe1db4a612323ed88fa0a",
-    "packagedAt": 1779620099967,
-    "minerCount": 1,
-    "manifestHash": "bd30d19d4eedc641e1bd11e80deede363807bd2b2cc156b6d60c1652a0f22756",
-    "workerSignature": "1239ae80d9ff009dd6d918ebae57469a44b18455801946ae22712cdf48caf51d"
-  }
+  "packagedAt": 1779620099967
 }
