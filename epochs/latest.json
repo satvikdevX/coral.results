@@ -1,18 +1,18 @@
 {
   "epoch": {
-    "number": 58,
-    "startedAt": 1779620489975,
-    "endsAt": 1779620669975,
+    "number": 59,
+    "startedAt": 1779620677053,
+    "endsAt": 1779620857053,
     "status": "finalized",
-    "seedCandidateId": "f5e4fa8a-84b8-4151-90d1-d75c9e5dfbd6",
-    "finalizedCandidateId": "12295a6d-c90d-479e-8fb6-82e5634bf3ac",
+    "seedCandidateId": "12295a6d-c90d-479e-8fb6-82e5634bf3ac",
+    "finalizedCandidateId": "68df01bc-dade-43b7-913d-991ad3525c78",
     "minerCount": 1,
     "finalHash": "8f67c96dddd5e77752fa99adb2d376ae0403c9d5c282fb25d63d7c4197d62e48"
   },
   "candidate": {
-    "id": "12295a6d-c90d-479e-8fb6-82e5634bf3ac",
-    "parentId": "ad3df645-758c-4107-b5e8-3b4875c0929a",
-    "epoch": 58,
+    "id": "68df01bc-dade-43b7-913d-991ad3525c78",
+    "parentId": "630d1ce2-384e-464f-8953-d311c3f6a6ac",
+    "epoch": 59,
     "contributor": "0x5B79B8A98a3301D7f6Dc92fAFC96F8Ad659b2D85",
     "genome": {
       "sbox": [
@@ -371,115 +371,86 @@
     },
     "genomeHash": "8f67c96dddd5e77752fa99adb2d376ae0403c9d5c282fb25d63d7c4197d62e48",
     "benchmark": {
-      "avalanche": 0.99974609375,
-      "entropy": 0.9981575622589551,
-      "diffusion": 0.99703125,
-      "bias": 0.9783121568627451,
-      "fitness": 0.996447429676461,
-      "throughput": 62020.473206287286,
-      "benchmarkedAt": 1779620650680,
+      "avalanche": 0.9982031250000001,
+      "entropy": 0.9982824250674394,
+      "diffusion": 0.99546875,
+      "bias": 0.981841568627451,
+      "fitness": 0.9959071656329769,
+      "throughput": 114281.36506347815,
+      "benchmarkedAt": 1779621021268,
       "iterations": 200
     },
-    "benchmarkScore": 0.996447429676461,
+    "benchmarkScore": 0.9959071656329769,
     "signature": "0xccf00d24fbbc34a0fbb94310fa227206b3dab86b1a5eedf6a2cf8cb6f47aa7df47ec2d6e4fba327283609dd144320ff678d9798730413feceb63b3e97c6818c01b",
-    "createdAt": 1779620647526
+    "createdAt": 1779621021241
   },
   "lineagePath": {
     "nodes": [
       {
-        "candidateId": "def47fbc-9191-4148-b7ce-c54e29c40848",
-        "parentId": "fb68a515-7e75-424a-a438-9c004b439737",
-        "epoch": 58,
+        "candidateId": "630d1ce2-384e-464f-8953-d311c3f6a6ac",
+        "parentId": "5d961b89-b46a-40da-bcd2-a5d6f9f94bdd",
+        "epoch": 59,
         "contributor": "0x5B79B8A98a3301D7f6Dc92fAFC96F8Ad659b2D85",
-        "fitness": 0.9963740859619756,
+        "fitness": 0.9967260789799517,
         "depth": 0,
         "children": [
-          "704e2c2f-9cd8-432e-8169-ba094aea5307",
-          "39ba2854-1c69-47a8-b862-05290f897977",
-          "f1fe1713-1d31-48bf-926b-f2dc00affcb8",
-          "09312324-ecac-48ce-8d0a-f456e12247f4",
-          "5e15d3e7-8cd4-4c63-ae2b-b10f6947a2c3",
-          "81675d7e-02b1-4fbf-9a1c-dba9e9f832ee",
-          "14dd0471-437e-432d-afb1-dc32d9b6be23",
-          "8ff3c810-a11d-40ad-9c04-31f697992147",
-          "e0cf1c7d-7982-43a4-a644-aceaffddad21",
-          "3d11c500-f461-4d1c-bcc5-9ada94d4b60c",
-          "6ca1e101-c2d7-41e8-bbbf-181f8ed42bbb"
+          "58f50a36-0987-4293-b1fe-f73765507f2e",
+          "296842e5-73d5-4764-a6b4-bc4e7789843b",
+          "4ef543e5-4346-4bed-9ab1-c734bd9d69a7",
+          "75c2a906-85a5-4a3b-b1c5-7c881134f5a1",
+          "8b06493c-4ea0-45fd-9165-15f6bbae620c",
+          "6e3b1525-4f91-4aee-ad2b-760697fda70c",
+          "4e73d30a-3aef-4919-b824-eb03d3df5e2c",
+          "8a2e329f-2ea7-4a55-92c9-8e0f5ee00bdd",
+          "730908a2-c15f-4612-8307-3827a4fff4b0",
+          "b8a31cab-de00-49be-a105-8bacf2607644",
+          "f68c13ea-6ce7-4111-92a5-9eeef6d6bfc2",
+          "f462e8d2-ccbf-4494-8b10-d04820e87f45",
+          "68df01bc-dade-43b7-913d-991ad3525c78"
         ],
-        "createdAt": 1779620500425
+        "createdAt": 1779621007234
       },
       {
-        "candidateId": "39ba2854-1c69-47a8-b862-05290f897977",
-        "parentId": "def47fbc-9191-4148-b7ce-c54e29c40848",
-        "epoch": 58,
+        "candidateId": "68df01bc-dade-43b7-913d-991ad3525c78",
+        "parentId": "630d1ce2-384e-464f-8953-d311c3f6a6ac",
+        "epoch": 59,
         "contributor": "0x5B79B8A98a3301D7f6Dc92fAFC96F8Ad659b2D85",
-        "fitness": 0.9962986427043601,
+        "fitness": 0.9959071656329769,
         "depth": 1,
-        "children": [
-          "d22ce3ca-2dd2-43d5-8355-c48fdb06cf60",
-          "ad3df645-758c-4107-b5e8-3b4875c0929a",
-          "bca0a40b-f390-4ad6-ab2c-ebfb0fe46be3",
-          "50435f85-432c-4d92-a8a0-a566d25948a0",
-          "c4fafce0-d212-4056-b01e-a4969d7d1ec0",
-          "4f429402-ca7a-4d53-9268-8c496b229592",
-          "d0e7388e-2067-4fac-9543-0d06ddc63e80"
-        ],
-        "createdAt": 1779620504427
-      },
-      {
-        "candidateId": "ad3df645-758c-4107-b5e8-3b4875c0929a",
-        "parentId": "39ba2854-1c69-47a8-b862-05290f897977",
-        "epoch": 58,
-        "contributor": "0x5B79B8A98a3301D7f6Dc92fAFC96F8Ad659b2D85",
-        "fitness": 0.9959402262071744,
-        "depth": 2,
-        "children": [
-          "ad2af17b-c601-4af4-9fbe-84a3e0554799",
-          "12295a6d-c90d-479e-8fb6-82e5634bf3ac"
-        ],
-        "createdAt": 1779620508430
-      },
-      {
-        "candidateId": "12295a6d-c90d-479e-8fb6-82e5634bf3ac",
-        "parentId": "ad3df645-758c-4107-b5e8-3b4875c0929a",
-        "epoch": 58,
-        "contributor": "0x5B79B8A98a3301D7f6Dc92fAFC96F8Ad659b2D85",
-        "fitness": 0.996447429676461,
-        "depth": 3,
         "children": [],
-        "createdAt": 1779620647526
+        "createdAt": 1779621021241
       }
     ],
-    "tip": "12295a6d-c90d-479e-8fb6-82e5634bf3ac",
-    "rootEpoch": 58,
-    "totalDepth": 3
+    "tip": "68df01bc-dade-43b7-913d-991ad3525c78",
+    "rootEpoch": 59,
+    "totalDepth": 1
   },
   "artifacts": [
     {
-      "id": "a6cd3363-8bdb-4e17-8abf-e917f48dbb27",
-      "epoch": 58,
+      "id": "888a33df-a133-4dc1-938f-6c1186a6249d",
+      "epoch": 59,
       "contributor": "0x5B79B8A98a3301D7f6Dc92fAFC96F8Ad659b2D85",
       "role": "epoch_finalizer",
-      "candidateId": "12295a6d-c90d-479e-8fb6-82e5634bf3ac",
-      "lineageDepth": 3,
-      "fitness": 0.996447429676461,
-      "issuedAt": 1779620677039,
+      "candidateId": "68df01bc-dade-43b7-913d-991ad3525c78",
+      "lineageDepth": 1,
+      "fitness": 0.9959071656329769,
+      "issuedAt": 1779621022067,
       "cosignatures": {},
-      "issuerSignature": "0x112014c4976c040c21075d6aa78fd1c3b8ecae9c0159858efa0ecd6dc28f8b9d587cc4aed1b939c5ad0848d7577aaa7d64a596841abdce1359b9545a21f1123f1c"
+      "issuerSignature": "0x0661fe7b529fdf767c2acea5790604cc93c57c96c39c698165ab505c17f514553cb29268237fe63b7211576cda1cd1f7d6132cfe0fc551a18134789fdcbd19061b"
     }
   ],
   "validatorSignatures": {
     "0x5B79B8A98a3301D7f6Dc92fAFC96F8Ad659b2D85": "0xccf00d24fbbc34a0fbb94310fa227206b3dab86b1a5eedf6a2cf8cb6f47aa7df47ec2d6e4fba327283609dd144320ff678d9798730413feceb63b3e97c6818c01b"
   },
-  "packagedAt": 1779620677047,
+  "packagedAt": 1779621022071,
   "manifest": {
-    "epochNumber": 58,
+    "epochNumber": 59,
     "finalHash": "8f67c96dddd5e77752fa99adb2d376ae0403c9d5c282fb25d63d7c4197d62e48",
-    "candidateId": "12295a6d-c90d-479e-8fb6-82e5634bf3ac",
+    "candidateId": "68df01bc-dade-43b7-913d-991ad3525c78",
     "genomeHash": "8f67c96dddd5e77752fa99adb2d376ae0403c9d5c282fb25d63d7c4197d62e48",
-    "packagedAt": 1779620677047,
+    "packagedAt": 1779621022071,
     "minerCount": 1,
-    "manifestHash": "1fc85c571f8f58f235680e9397b1b04fec3a2541a9ba9f1acf1f4166bfd78e5e",
-    "workerSignature": "f7b43cc04c13be29123b4f365bcb37aac5a9770e09745c1833f2a54a5522d56b"
+    "manifestHash": "fa4b400c0c197a68f01e181b67a8e50d25fb4649946918af13cf2f97db42a72b",
+    "workerSignature": "391e3e5a7581c7ed2ff44d99eb4144f28981b759c856fd9f10ae1898b97639ff"
   }
 }
